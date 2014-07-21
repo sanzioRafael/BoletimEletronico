@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: -moz-linear-gradient(top, #B0C4DE, #fff) repeat-X;
+	background: -ms-linear-gradient(top, #B0C4DE, #fff) repeat-X;
+	background: linear-gradient(top, #B0C4DE, #fff) repeat-X;
+	background: -webkit-gradient(linear, left top, left bottom, from(#B0C4DE), to(#fff) ) repeat-X;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B0C4DE, endColorstr=#FFFFFFFF)";
+	filter: progid :   DXImageTransform.Microsoft.gradient (startColorstr=#B0C4DE, endColorstr =   #FFFFFFFF );
+}
+
+.page-header {
+	text-align: center;
+}
+
+.navbar-form {
+	margin: 0 0 10px 0;
+	padding: 40px;
+	font-size: 20px;
+}
+
+.control-group {
+	margin: 0 0 30px 35%;
+}
+
+.control-group label {
+	color: #666;
+	line-height: 100%;
+	font-size: 20px;
+}
+
+.control-group input[type=text], input[type=email], input[type=password] {
+	width: 360px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.control-group input[type=submit] {
+	width: 380px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.control-group input[type=text]:invalid, input[type=email]:invalid, input[type=password]:invalid {
+	border: 1px solid red;
+}
+
+.control-group input[type=text]:valid, input[type=email]:valid, input[type=password]:valid {
+	border: 1px solid green;
+}

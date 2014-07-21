@@ -1,0 +1,76 @@
+/* 
+    Document   : login
+    Created on : 27/11/2013, 09:36:22
+    Author     : Rafael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+	background: -moz-linear-gradient(top, #B0C4DE, #fff) repeat-X;
+	background: -ms-linear-gradient(top, #B0C4DE, #fff) repeat-X;
+	background: linear-gradient(top, #B0C4DE, #fff) repeat-X;
+	background: -webkit-gradient(linear, left top, left bottom, from(#B0C4DE),
+		to(#fff) ) repeat-X;
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#B0C4DE, endColorstr=#FFFFFFFF)";
+	filter: progid :   DXImageTransform.Microsoft.gradient (   startColorstr
+		= 
+		 #B0C4DE, endColorstr =   #FFFFFFFF );
+}
+
+h1 {
+	margin: 0 0 50px 0;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 100%;
+}
+
+h3 {
+	line-height: 100%;
+	display: block;
+	color: #FFFAFA;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.form-vertical {
+	margin: 0 0 30px 0;
+	padding: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 70%;
+}
+
+.control-group {
+	margin: 0 0 10px 0;
+}
+
+.control-group label {
+	color: #666;
+	font-size: 12px;
+}
+
+.control-group input {
+	width: 240px;
+	padding: 8px;
+	font-size: 12px;
+	color: #666;
+}
+
+.form-actions {
+	margin: 10px -20px -20px -20px;
+	text-align: left;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	font-size: 15px;
+}
+
+.form-actions>.btn.btn-primary.btn-sm {
+	padding: 5px 17px;
+	font-size: 15px;
+}

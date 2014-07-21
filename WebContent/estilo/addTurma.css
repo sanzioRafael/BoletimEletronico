@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+
+.page-header {
+	text-align: center;
+}
+
+.input-prepend {
+	padding: 10px;
+}
+
+.control-group input[type=text]:valid {
+	border: 1px solid green;
+}
+
+.control-group input[type=text]:invalid {
+	border: 1px solid red;
+}
+
+.control-group input[type=date]:valid {
+	border: 1px solid green;
+}
+
+.control-group input[type=date]:invalid {
+	border: 1px solid red;
+}

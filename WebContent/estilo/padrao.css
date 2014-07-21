@@ -1,0 +1,87 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: -moz-linear-gradient(top, #B0C4DE, #fff) repeat-X;
+	background: -ms-linear-gradient(top, #B0C4DE, #fff) repeat-X;
+	background: linear-gradient(top, #B0C4DE, #fff) repeat-X;
+	background: -webkit-gradient(linear, left top, left bottom, from(#B0C4DE),
+		to(#fff) ) repeat-X;
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#B0C4DE, endColorstr=#FFFFFFFF)";
+	filter: progid :     DXImageTransform.Microsoft.gradient (    
+		startColorstr =  
+		  #B0C4DE, endColorstr =     #FFFFFFFF );
+	margin-left: -1px;
+	padding-bottom: 50px;
+}
+
+.navbar {
+	position: fixed;
+	font-size: 15px;
+}
+
+.jumbotron {
+	padding: 60px 0;
+	color: #000;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+	background: #F5F5F5;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+
+.jumbotron p {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.25;
+	margin-bottom: 30px;
+}
+
+/* Link styles (used on .masthead-links as well) */
+.jumbotron a {
+	color: #fff;
+	color: rgba(255, 255, 255, .5);
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.jumbotron a:hover {
+	color: #fff;
+	text-shadow: 0 0 10px rgba(255, 255, 255, .25);
+}
+
+#conteudo {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.footer {
+	padding: 70px 0;
+	margin-top: 70px;
+	border-top: 1px solid #e5e5e5;
+	background-color: #f5f5f5;
+}
+
+.footer p {
+	margin-bottom: 0;
+	color: #777;
+}
+
+.footer-links {
+	margin: 10px 0;
+}
+
+.footer-links li {
+	display: inline;
+	padding: 0 2px;
+}
+
+.footer-links li:first-child {
+	padding-left: 0;
+}
